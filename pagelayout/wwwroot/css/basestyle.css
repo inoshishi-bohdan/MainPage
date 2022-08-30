@@ -1,0 +1,426 @@
+body{
+    margin: 0px;
+}
+
+.top-section{
+    height: 866px;
+    background-color: de2b24;
+}
+
+.top-section .title{
+    padding-top: 108px;
+}
+
+.top-section .title p{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
+}
+
+.top-section .subtitle p{
+    margin: 0px;
+    padding-top: 11px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
+}
+
+.bar{
+    width: 47px;
+    height: 5px;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f3f3;
+}
+
+.logo{
+    display: inline-block;
+    height: 253px;
+    width: 255px;
+    text-align: center;
+    background-color: f35e59;
+}
+
+.logo:hover{
+    transform: translate(-2.1rem, -2ex);
+}
+
+.logo img{
+    width: 40px; 
+    height: 40px;
+    object-fit: cover;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.logo p{
+    font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
+}
+
+.logo .name{
+    margin: 0px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo .description{
+    margin: 0px;
+    color: white;
+    font-size: 16px;
+}
+
+.photo:hover{
+    transform: scale(1.2); 
+}
+
+.photo img{
+    height: 253px;
+    width: 255px;
+    object-fit:cover;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(4, 255px);
+    grid-template-rows: repeat(2, 253px);
+    justify-content: center;
+    margin: 47px auto 127px auto;
+}
+
+.middle-section{
+    height: 848px;
+    background-color: #1287bf;
+}
+
+.middle-section .title p{
+    margin: 0px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
+}
+
+.middle-section .subtitle p{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
+}
+
+.triangle{
+    width: 0px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 28px solid white;
+}
+
+.round-button{
+    width: 58px;
+    height: 58px;
+    margin: 17px auto 22px auto;
+    text-align: center;
+    border-radius: 40px;
+    background-color: rgba(255,255,255,0);
+    border: 3px solid #ffffff;
+}
+
+.down-arrow{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    padding: 3px;
+    transform: rotate(45deg);
+    border: solid white;
+    border-width: 0px 3px 3px 0px;
+}
+
+.form-tab{
+    position: relative;
+    width: 683px;
+    height: 447px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.info{
+    width: 580px;
+    height: 76px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 52px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    color: #828282;
+    font-family: "Helvetica", "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.exit-button{
+    position: absolute; 
+    left: 654px;
+    bottom: 421px;
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    border: 2px solid #ffffff;
+    background-color: #de2b24;
+}
+
+.exit-button > p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.registration input{
+    display: block;
+    width: 443px;
+    height: 50px;
+    margin: 8px auto 0px auto;
+    font-size: 14px;
+    line-height: 60px;
+    color: #b0b0b0;
+    font-family: "Helvetica", Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    background-color: rgba(241,241,241,0);
+}
+
+.registration button{
+    display: block;
+    width: 161px;
+    height: 46px;
+    margin: 37px auto 0 auto;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
+    border-radius: 3px;
+    border: transparent;
+    background-color: #de2b24;
+}
+
+.low-section{
+    height: 490px;
+    background-color: #2a2a2a;
+}
+
+.low-section .title{
+    margin: 0px;
+    padding-top: 89px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 29px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
+}
+
+.low-section .subtitle{
+    margin-top: 0px;
+    margin-bottom: 34px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #cecece;
+    font-weight: 300;
+    font-family: "Open Sans", "Roboto", Arial, sans-serif;
+}
+
+.low-section .contact{
+    display: block;
+    margin-bottom: 37px;
+    text-align: center;
+}
+
+.low-section img{
+    width: 45px;
+    height: 45px;
+    margin: 0px 10px 0px 10px;
+    object-fit: scale-down;
+    border-radius: 1px;
+    border: 2px solid #515151;
+    background-color: rgba(243,243,243,0);
+}
+
+.contact img:hover{
+    border: 2px solid #de2b24;
+}
+
+.low-section input{
+    width: 683px;
+    height: 54px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 27px;
+    border-radius: 1px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #cecece;
+    font-weight: 400;
+    font-family: "Open Sans", "Roboto", Arial, sans-serif;
+    background-color: #515151;
+}
+
+ .subscribe{
+    display: block;
+    width: 149px;
+    height: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 84px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Helvetica";
+    border: 2px solid #515151;
+    border-radius: 1px;
+    background-color: rgba(243,243,243,0);
+ }
+
+ footer{
+    height: 67px;
+    vertical-align: middle;
+    background-color: #515151;
+}
+
+footer p{
+    margin: 0px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 27px;
+    color: #cecece;
+    font-weight: 400;
+    font-family: "Open Sans", "Roboto", Arial, sans-serif;
+}
+
+@media only screen and (max-width: 1036px){
+    .top-section{
+        height: 1136px;
+    }
+
+    .table{
+        grid-template-columns: repeat(3, 255px);
+        grid-template-rows: repeat(3, 253px);  
+    }
+}
+
+@media only screen and (max-width: 781px){
+    .top-section{
+        height: 1366px;
+    }
+
+    .table{
+        grid-template-columns: repeat(2, 255px);
+        grid-template-rows: repeat(4, 253px);          
+    }
+
+    .form-tab{
+        width: 500px;
+        margin: 0px auto 0px auto;
+    }
+
+    .info{
+        margin-top: 0px;
+        width: 400px;
+    }
+
+    .exit-button{
+        left: 474px;
+        bottom: 423px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .exit-button > p{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 30px;
+    }
+
+    .low-section input{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .top-section{
+        height: 1286px;
+    }
+
+    .table{
+        grid-template-columns: repeat(2, 235px);
+        grid-template-rows: repeat(4, 233px);
+        }
+
+    .logo{
+        height: 233px;
+        width: 235px;
+    }
+
+    .photo img {
+        height: 233px;
+        width: 235px;
+    }
+
+    .form-tab{
+        width: 450px;
+        margin: 0px auto 0px auto;
+    }
+
+    .info{
+        margin-top: 0px;
+        width: 400px;
+    }
+
+    .exit-button{
+        left: 424px;
+        bottom: 423px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .exit-button > p{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 30px;
+    }
+
+    .registration input{
+        width: 400px;
+    }
+
+    .low-section input{
+        width: 450px;
+    }
+}
